@@ -4,7 +4,7 @@ const notas = [2.5, 10, 1.2, 8.7, 3.6, 8.9, 9.7]
 
 let notasBaixas = []
 for (let i in notas) {
-    if (notas[i] <7) {
+    if (notas[i] < 7) {
         notasBaixas.push(notas[i])
     }
 }
