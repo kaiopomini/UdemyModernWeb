@@ -8,4 +8,4 @@ console.log(typeof qualquer)
 
 // evitar nome genérico e siglas
 
-// prefica código claro a comentários, mas use os 2.
+// prefira código claro a comentários, mas use os 2.
