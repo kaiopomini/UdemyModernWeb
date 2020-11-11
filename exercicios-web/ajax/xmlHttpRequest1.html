@@ -53,8 +53,8 @@
             })
 
             const tabela = document.createElement('table')
-                linhas.forEach(linha => tabela.appendChild(linha))
-                document.body.appendChild(tabela)
+            linhas.forEach(linha => tabela.appendChild(linha))
+            document.body.appendChild(tabela)
         }
 
         ajax({
@@ -64,8 +64,6 @@
                 const estados = JSON.parse(resposta)
 
 
-
-               
 
                 criarTabela(estados)
             },
