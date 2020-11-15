@@ -38,6 +38,16 @@ app.post('/formulario', (req, res) => {
     })
 })
 
+app.get('/parOuImpar', (req, res) => {
+    // req.body
+    // req.query
+    // req.params
+    const par = parseInt(req.query.numero) % 2 === 0
+    res.send({
+        resultado: par ? 'par' : 'impar'
+    })
+})
+
 const port = process.env.PORT || 8080
 
 app.listen(port, () => {
